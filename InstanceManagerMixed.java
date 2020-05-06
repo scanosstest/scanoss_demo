@@ -20,7 +20,7 @@ import java.lang.reflect.InvocationTargetException;
 
 import javax.naming.NamingException;
 
-public interface InstanceManagerMixed {
+public interface InstanceManager {
 
     Object newInstance(Class<?> clazz) throws IllegalAccessException, InvocationTargetException,
             NamingException, InstantiationException, IllegalArgumentException,
@@ -48,8 +48,7 @@ public interface InstanceManagerMixed {
     default void backgroundProcess() {
         // NO-OP by default
     }
-	
-
+    
 }
 
 /*
