@@ -1,4 +1,3 @@
 [
 { "component": "tomcat", "vendor": "apache"},
-  {"component": "hibernate", "vendor": "hibernate"}
 ]
