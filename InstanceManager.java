@@ -48,5 +48,4 @@ public interface InstanceManager {
     default void backgroundProcess() {
         // NO-OP by default
     }
-    
 }
